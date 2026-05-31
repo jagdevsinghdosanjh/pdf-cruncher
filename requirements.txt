@@ -1,13 +1,12 @@
 # ============================
-# CruncherX — Unified Requirements (Stable)
-# Cloud Engine + Local Bulldozer Engine
+# CruncherX — Cloud-Safe Requirements
 # ============================
 
 # --- Core App ---
 streamlit==1.32.0
 python-dotenv==1.0.1
 
-# --- Supabase (Stable versions for Python 3.11) ---
+# --- Supabase (Stable versions) ---
 supabase==2.3.5
 gotrue==2.4.2
 postgrest==0.15.0
@@ -18,16 +17,10 @@ httpx==0.24.1
 # --- PDF Handling (Cloud-Safe) ---
 pypdf==4.2.0
 pdf2image==1.17.0
-Pillow==10.3.0
-PyMuPDF==1.24.9
-pytesseract==0.3.10
+Pillow==9.5.0
 
 # --- Compression Helpers ---
 numpy==1.26.4
-
-# --- Optional Local Bulldozer Engine ---
-pikepdf==8.13.0
-reportlab==4.1.0
 
 # --- Utilities ---
 requests==2.31.0
